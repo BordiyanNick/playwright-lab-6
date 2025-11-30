@@ -1,4 +1,4 @@
-// Файл: playwright.config.js (БЕЗ Mobile Safari)
+// Файл: playwright.config.js
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
@@ -7,24 +7,33 @@ export default defineConfig({
   reporter: 'html',
 
   use: {
-    baseURL: 'http://localhost:3000', 
+    baseURL: 'http://localhost:3000',
     trace: 'on-first-retry',
   },
+
+  // -----------------------------
+  //  ВАЖНО! Автоматический запуск http-server
+  // -----------------------------
+  webServer: {
+    command: 'npx http-server ./public -p 3000',
+    url: 'http://localhost:3000',
+    reuseExistingServer: false,
+    timeout: 120000
+  },
+
   projects: [
     {
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
-      // Игнорируем внешние тесты
-      testIgnore: '**/external.test.js', 
+      testIgnore: '**/external.test.js', // игнорируем тесты внешнего сайта
     },
-    // *** БЛОК MOBILE SAFARI УДАЛЕН ***
-    //Проект для внешнего сайта Playwright.dev
+
     {
       name: 'external-site',
-      testMatch: '**/external.test.js', // Запускаем ТОЛЬКО внешние тесты
+      testMatch: '**/external.test.js', // запускаем только внешние тесты
       use: {
         ...devices['Desktop Firefox'],
-        baseURL: 'https://playwright.dev/', 
+        baseURL: 'https://playwright.dev/',
       },
     },
   ],
