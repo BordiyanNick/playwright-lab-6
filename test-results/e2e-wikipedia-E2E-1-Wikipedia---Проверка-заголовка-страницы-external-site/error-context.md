@@ -1,0 +1,1015 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Перейти до вмісту" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "Сайт" [ref=e6]:
+        - generic "Головне меню" [ref=e7]:
+          - button "Головне меню" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: Головне меню
+      - link "Вікіпедія" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0
+        - img [ref=e13]
+        - img "Вікіпедія" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Пошук у Вікіпедії" [ref=e23]
+          - button "Знайти" [ref=e25]
+      - navigation "Особисті інструменти" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "Пожертвувати" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=uk.wikipedia.org&uselang=uk
+          - listitem [ref=e33]:
+            - link "Створити обліковий запис" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=%D0%A1%D0%BF%D0%B5%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0:%D0%A1%D1%82%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D0%B8_%D0%BE%D0%B1%D0%BB%D1%96%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9_%D0%B7%D0%B0%D0%BF%D0%B8%D1%81&returnto=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0+%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0
+          - listitem [ref=e35]:
+            - link "Увійти" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=%D0%A1%D0%BF%D0%B5%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0:%D0%92%D1%85%D1%96%D0%B4&returnto=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0+%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0
+  - generic [ref=e38]:
+    - generic [ref=e42] [cursor=pointer]:
+      - link "Banner logo Триває Місяць Азії у Вікіпедії Беріть участь у конкурсі й отримуйте книги про Азію." [ref=e43]:
+        - /url: https://uk.wikipedia.org/wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9F%D1%80%D0%BE%D1%94%D0%BA%D1%82:%D0%A2%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9_%D1%82%D0%B8%D0%B6%D0%B4%D0%B5%D0%BD%D1%8C/%D0%9C%D1%96%D1%81%D1%8F%D1%86%D1%8C_%D0%90%D0%B7%D1%96%D1%97_2025
+        - generic [ref=e44]:
+          - img "Banner logo" [ref=e46]
+          - paragraph [ref=e49]:
+            - text: Триває Місяць Азії у Вікіпедії
+            - text: Беріть участь у конкурсі й отримуйте книги про Азію.
+      - generic [ref=e50]:
+        - text: "["
+        - link "Допоможіть з перекладом!" [ref=e51]:
+          - /url: //meta.wikimedia.org/w/index.php?title=Special:Translate&group=Centralnotice-tgroup-wikipedia_asian_month_2025&language=uk
+        - text: "]"
+      - link "Сховати" [ref=e53]:
+        - /url: "#"
+        - img "Сховати" [ref=e54]
+    - main [ref=e57]:
+      - generic [ref=e59]:
+        - navigation "Простори назв" [ref=e61]:
+          - generic [ref=e62]:
+            - generic:
+              - list:
+                - listitem [ref=e63]:
+                  - link "Головна" [ref=e64] [cursor=pointer]:
+                    - /url: /wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0
+                    - generic [ref=e65]: Головна
+                - listitem [ref=e66]:
+                  - link "Обговорення" [ref=e67] [cursor=pointer]:
+                    - /url: /wiki/%D0%9E%D0%B1%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F:%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0
+                    - generic [ref=e68]: Обговорення
+        - generic [ref=e69]:
+          - navigation "Перегляди" [ref=e70]:
+            - generic [ref=e71]:
+              - generic:
+                - list:
+                  - listitem [ref=e72]:
+                    - link "Читати" [ref=e73] [cursor=pointer]:
+                      - /url: /wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0
+                      - generic [ref=e74]: Читати
+                  - listitem [ref=e75]:
+                    - link "Переглянути код" [ref=e76] [cursor=pointer]:
+                      - /url: /w/index.php?title=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0&action=edit
+                      - generic [ref=e77]: Переглянути код
+                  - listitem [ref=e78]:
+                    - link "Переглянути історію" [ref=e79] [cursor=pointer]:
+                      - /url: /w/index.php?title=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0&action=history
+                      - generic [ref=e80]: Переглянути історію
+          - navigation "Інструменти сторінки" [ref=e81]:
+            - generic [ref=e82]:
+              - button "Інструменти" [ref=e83] [cursor=pointer]
+              - generic [ref=e85] [cursor=pointer]: Інструменти
+      - navigation "Зовнішній вигляд" [ref=e88]:
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - generic [ref=e92]: Зовнішній вигляд
+            - button "сховати" [ref=e93] [cursor=pointer]
+          - generic [ref=e94]:
+            - generic [ref=e95]: Текст
+            - list [ref=e97]:
+              - listitem [ref=e98]:
+                - generic [ref=e100]:
+                  - generic [ref=e101]:
+                    - radio "Малий" [ref=e102]
+                    - generic [ref=e105]: Малий
+                  - generic [ref=e106]:
+                    - radio "Стандартний" [checked] [ref=e107]
+                    - generic [ref=e110]: Стандартний
+                  - generic [ref=e111]:
+                    - radio "Великий" [ref=e112]
+                    - generic [ref=e115]: Великий
+          - generic [ref=e116]:
+            - generic [ref=e117]: Ширина
+            - list [ref=e119]:
+              - listitem [ref=e120]:
+                - generic [ref=e122]:
+                  - generic [ref=e123]:
+                    - radio "Стандартний" [checked] [ref=e124]
+                    - generic [ref=e127]: Стандартний
+                  - generic [ref=e128]:
+                    - radio "Широкий" [ref=e129]
+                    - generic [ref=e132]: Широкий
+          - generic [ref=e133]:
+            - generic [ref=e134]:
+              - text: Кольорова тема
+              - generic [ref=e135]: (бета)
+            - list [ref=e137]:
+              - listitem [ref=e138]:
+                - generic [ref=e140]:
+                  - generic [ref=e141]:
+                    - radio "Автоматична" [ref=e142]
+                    - generic [ref=e145]: Автоматична
+                  - generic [ref=e146]:
+                    - radio "Світла" [checked] [ref=e147]
+                    - generic [ref=e150]: Світла
+                  - generic [ref=e151]:
+                    - radio "Темна" [ref=e152]
+                    - generic [ref=e155]: Темна
+      - generic "Головна сторінка" [ref=e156]:
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - generic [ref=e161]:
+                - heading "Ласкаво просимо до Вікіпедії," [level=1] [ref=e163]:
+                  - text: Ласкаво просимо до
+                  - link "Вікіпедії" [ref=e164] [cursor=pointer]:
+                    - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F
+                  - text: ","
+                - paragraph [ref=e165]:
+                  - text: вільної енциклопедії, яку
+                  - link "може редагувати кожен" [ref=e166] [cursor=pointer]:
+                    - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9B%D0%B0%D1%81%D0%BA%D0%B0%D0%B2%D0%BE_%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D0%BC%D0%BE
+                  - text: .
+                - paragraph [ref=e167]:
+                  - link "Українська Вікіпедія" [ref=e168] [cursor=pointer]:
+                    - /url: /wiki/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F
+                  - text: заснована
+                  - link "30 січня" [ref=e169] [cursor=pointer]:
+                    - /url: /wiki/30_%D1%81%D1%96%D1%87%D0%BD%D1%8F
+                  - link "2004" [ref=e170] [cursor=pointer]:
+                    - /url: /wiki/2004
+                  - text: року.
+              - generic [ref=e171]:
+                - paragraph [ref=e172]:
+                  - text: неділя,
+                  - link "30 листопада" [ref=e173] [cursor=pointer]:
+                    - /url: /wiki/30_%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%BF%D0%B0%D0%B4%D0%B0
+                  - link "2025" [ref=e174] [cursor=pointer]:
+                    - /url: /wiki/2025
+                  - text: року
+                - paragraph [ref=e175]:
+                  - link "1 398 459" [ref=e177] [cursor=pointer]:
+                    - /url: /wiki/%D0%A1%D0%BF%D0%B5%D1%86%D1%96%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0:%D0%A1%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0
+                  - text: статей
+                  - link "українською" [ref=e178] [cursor=pointer]:
+                    - /url: /wiki/%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0
+                - paragraph [ref=e179]: 211 835 зареєстрованих дописувачів
+                - paragraph [ref=e180]: 6253 з них активні останнього місяця
+            - list [ref=e181]:
+              - listitem [ref=e182]:
+                - link "Про нас" [ref=e183] [cursor=pointer]:
+                  - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9F%D1%80%D0%BE_%D0%BD%D0%B0%D1%81
+              - listitem [ref=e184]:
+                - link "Навігація" [ref=e185] [cursor=pointer]:
+                  - /url: /wiki/%D0%94%D0%BE%D0%B2%D1%96%D0%B4%D0%BA%D0%B0:%D0%AF%D0%BA_%D0%BE%D1%80%D1%96%D1%94%D0%BD%D1%82%D1%83%D0%B2%D0%B0%D1%82%D0%B8%D1%81%D1%8F_%D1%83_%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%97/1
+              - listitem [ref=e186]:
+                - link "Зміст" [ref=e187] [cursor=pointer]:
+                  - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%92%D0%BC%D1%96%D1%81%D1%82
+              - listitem [ref=e188]:
+                - link "Створити статтю" [ref=e190] [cursor=pointer]:
+                  - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9C%D0%B0%D0%B9%D1%81%D1%82%D0%B5%D1%80_%D1%81%D1%82%D0%B2%D0%BE%D1%80%D0%B5%D0%BD%D0%BD%D1%8F_%D1%81%D1%82%D0%B0%D1%82%D0%B5%D0%B9
+              - listitem [ref=e191]:
+                - link "Реєстрація" [ref=e192] [cursor=pointer]:
+                  - /url: /wiki/%D0%94%D0%BE%D0%B2%D1%96%D0%B4%D0%BA%D0%B0:%D0%A0%D0%B5%D1%94%D1%81%D1%82%D1%80%D0%B0%D1%86%D1%96%D1%8F
+              - listitem [ref=e193]:
+                - link "Довідка" [ref=e194] [cursor=pointer]:
+                  - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%94%D0%BE%D0%B2%D1%96%D0%B4%D0%BA%D0%B0
+              - listitem [ref=e195]:
+                - link "Проєкти" [ref=e196] [cursor=pointer]:
+                  - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%92%D1%96%D0%BA%D1%96%D0%BF%D1%80%D0%BE%D1%94%D0%BA%D1%82
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - generic [ref=e199]:
+                - generic [ref=e200]:
+                  - heading "Вибрана стаття" [level=2] [ref=e202]: Вибрана стаття
+                  - generic "Додаткові дії" [ref=e206] [cursor=pointer]:
+                    - img "Додаткові дії" [ref=e207]
+                - generic [ref=e208]:
+                  - figure "Сучасний димний порох для стрілецької зброї" [ref=e209]:
+                    - link "Сучасний димний порох для стрілецької зброї" [ref=e210] [cursor=pointer]:
+                      - /url: /wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Black_Powder-1.JPG
+                      - img "Сучасний димний порох для стрілецької зброї" [ref=e211]
+                  - paragraph [ref=e212]:
+                    - link "Димний порох" [ref=e214] [cursor=pointer]:
+                      - /url: /wiki/%D0%94%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85
+                    - text: або
+                    - link "чорний порох" [ref=e216] [cursor=pointer]:
+                      - /url: /wiki/%D0%94%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85
+                    - text: —
+                    - link "вибухова речовина" [ref=e217] [cursor=pointer]:
+                      - /url: /wiki/%D0%92%D0%B8%D0%B1%D1%83%D1%85%D0%BE%D0%B2%D1%96_%D1%80%D0%B5%D1%87%D0%BE%D0%B2%D0%B8%D0%BD%D0%B8
+                    - text: ", що складається з"
+                    - link "селітри" [ref=e218] [cursor=pointer]:
+                      - /url: /wiki/%D0%A1%D0%B5%D0%BB%D1%96%D1%82%D1%80%D0%B0
+                    - text: ","
+                    - link "сірки" [ref=e219] [cursor=pointer]:
+                      - /url: /wiki/%D0%A1%D1%96%D1%80%D0%BA%D0%B0
+                    - text: та
+                    - link "деревного вугілля" [ref=e220] [cursor=pointer]:
+                      - /url: /wiki/%D0%94%D0%B5%D1%80%D0%B5%D0%B2%D0%BD%D0%B5_%D0%B2%D1%83%D0%B3%D1%96%D0%BB%D0%BB%D1%8F
+                    - text: . Чорний порох не є
+                    - link "хімічною сполукою" [ref=e221] [cursor=pointer]:
+                      - /url: /wiki/%D0%A5%D1%96%D0%BC%D1%96%D1%87%D0%BD%D0%B0_%D1%81%D0%BF%D0%BE%D0%BB%D1%83%D0%BA%D0%B0
+                    - text: ", це механічна суміш, що зазвичай має темно-сірий або чорний колір."
+                  - paragraph [ref=e222]:
+                    - text: Димний порох має низькі
+                    - link "потужність" [ref=e223] [cursor=pointer]:
+                      - /url: /wiki/%D0%A2%D0%B5%D0%BF%D0%BB%D0%BE%D1%82%D0%B0_%D0%B2%D0%B8%D0%B1%D1%83%D1%85%D1%83
+                    - text: і
+                    - link "швидкість" [ref=e224] [cursor=pointer]:
+                      - /url: /wiki/%D0%A8%D0%B2%D0%B8%D0%B4%D0%BA%D1%96%D1%81%D1%82%D1%8C_%D0%B4%D0%B5%D1%82%D0%BE%D0%BD%D0%B0%D1%86%D1%96%D1%97
+                    - text: вибуху порівняно з сучасними вибухівками. Окрім цього, він
+                    - link "гігроскопічний" [ref=e225] [cursor=pointer]:
+                      - /url: /wiki/%D0%93%D1%96%D0%B3%D1%80%D0%BE%D1%81%D0%BA%D0%BE%D0%BF%D1%96%D1%87%D0%BD%D1%96%D1%81%D1%82%D1%8C
+                    - text: ", а при згорянні утворює щільну хмару диму, що видає супротивнику місце вогневої позиції та закриває стрільцю ціль. Однак він донині застосовується в складі сповільнювачів і запальників артилерійських боєприпасів, у"
+                    - link "феєрверках" [ref=e226] [cursor=pointer]:
+                      - /url: /wiki/%D0%A4%D0%B5%D1%94%D1%80%D0%B2%D0%B5%D1%80%D0%BA
+                    - text: ","
+                    - link "вогнепровідних шнурах" [ref=e227] [cursor=pointer]:
+                      - /url: /wiki/%D0%92%D0%BE%D0%B3%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%B2%D1%96%D0%B4%D0%BD%D0%B8%D0%B9_%D1%88%D0%BD%D1%83%D1%80
+                    - text: і в гірництві для «м'якого» підриву породи. Також його використовують ентузіасти та
+                    - link "реконструктори" [ref=e228] [cursor=pointer]:
+                      - /url: /wiki/%D0%86%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%BD%D0%B0_%D1%80%D0%B5%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D1%96%D1%8F
+                    - text: .
+                  - paragraph [ref=e229]:
+                    - text: Порох здійснив надзвичайний вплив на плин історії людства, докорінно змінивши характер бойових дій і принципи державотворення, і протягом майже тисячі років був єдиною доступною людству вибуховою речовиною. Дослідження пороху різними науковцями вплинуло на наближення
+                    - link "Наукової" [ref=e230] [cursor=pointer]:
+                      - /url: /wiki/%D0%9D%D0%B0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE-%D1%82%D0%B5%D1%85%D0%BD%D1%96%D1%87%D0%BD%D0%B0_%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D1%96%D1%8F
+                    - text: та
+                    - link "Промислової" [ref=e231] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D1%80%D0%BE%D0%BC%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%B0_%D1%80%D0%B5%D0%B2%D0%BE%D0%BB%D1%8E%D1%86%D1%96%D1%8F
+                    - text: революцій.
+                - generic [ref=e232]:
+                  - link "Читати далі" [ref=e234] [cursor=pointer]:
+                    - /url: /wiki/%D0%94%D0%B8%D0%BC%D0%BD%D0%B8%D0%B9_%D0%BF%D0%BE%D1%80%D0%BE%D1%85
+                    - button "Читати далі" [ref=e235]
+                  - link "Усі вибрані статті (249)" [ref=e236] [cursor=pointer]:
+                    - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%92%D0%B8%D0%B1%D1%80%D0%B0%D0%BD%D1%96_%D1%81%D1%82%D0%B0%D1%82%D1%82%D1%96
+              - generic [ref=e237]:
+                - generic [ref=e238]:
+                  - heading "Добра стаття" [level=2] [ref=e240]: Добра стаття
+                  - generic "Додаткові дії" [ref=e244] [cursor=pointer]:
+                    - img "Додаткові дії" [ref=e245]
+                - generic [ref=e246]:
+                  - figure "Христина Соловій" [ref=e247]:
+                    - link "Христина Соловій" [ref=e248] [cursor=pointer]:
+                      - /url: /wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Atlas_Weekend_03-07-2018_16_Khrystyna_Soloviy-cropped.png
+                      - img "Христина Соловій" [ref=e249]
+                  - paragraph [ref=e250]:
+                    - link "«Любий друг»" [ref=e252] [cursor=pointer]:
+                      - /url: /wiki/%D0%9B%D1%8E%D0%B1%D0%B8%D0%B9_%D0%B4%D1%80%D1%83%D0%B3_(%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC)
+                    - text: — другий
+                    - link "студійний альбом" [ref=e253] [cursor=pointer]:
+                      - /url: /wiki/%D0%A1%D1%82%D1%83%D0%B4%D1%96%D0%B9%D0%BD%D0%B8%D0%B9_%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC
+                    - text: української співачки
+                    - link "Христини Соловій" [ref=e254] [cursor=pointer]:
+                      - /url: /wiki/%D0%A1%D0%BE%D0%BB%D0%BE%D0%B2%D1%96%D0%B9_%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%B8%D0%BD%D0%B0_%D0%86%D0%B2%D0%B0%D0%BD%D1%96%D0%B2%D0%BD%D0%B0
+                    - text: ", що вийшов 26 жовтня 2018 року на лейблі «Суперсиметрія». У ньому співачка змінила сценічний образ, відмовившись від виконання народних пісень на користь авторських композицій, та оновила звучання, замінивши склад музикантів та саундпродюсера і записавши з ними авторський альбом."
+                  - paragraph [ref=e255]:
+                    - text: «Любий друг» вийшов 26 жовтня 2018 року та містив 11 пісень, написаних Христиною Соловій, серед яких
+                    - link "«Хто, як не ти»" [ref=e256] [cursor=pointer]:
+                      - /url: /wiki/%D0%A5%D1%82%D0%BE,_%D1%8F%D0%BA_%D0%BD%D0%B5_%D1%82%D0%B8_(%D0%BF%D1%96%D1%81%D0%BD%D1%8F)
+                    - text: ","
+                    - link "«Fortepiano»" [ref=e257] [cursor=pointer]:
+                      - /url: /wiki/Fortepiano_(%D0%BF%D1%96%D1%81%D0%BD%D1%8F)
+                    - text: та «Шкідлива звичка», що вийшли як сингли. Реліз привернув увагу не лише завдяки новому образу співачки, яку порівнювали із
+                    - link "Ланою Дель Рей" [ref=e258] [cursor=pointer]:
+                      - /url: /wiki/%D0%9B%D0%B0%D0%BD%D0%B0_%D0%94%D0%B5%D0%BB%D1%8C_%D0%A0%D0%B5%D0%B9
+                    - text: ", але й через провокативну рецензію медіа"
+                    - link "«СЛУХ»" [ref=e259] [cursor=pointer]:
+                      - /url: /wiki/%D0%A1%D0%9B%D0%A3%D0%A5_(%D0%BC%D0%B5%D0%B4%D1%96%D0%B0)
+                    - text: . За підсумками року Христина Соловій була номінована на отримання премії
+                    - link "Yuna" [ref=e260] [cursor=pointer]:
+                      - /url: /wiki/YUNA
+                    - text: як «Найкраща виконавиця» та увійшла до списку «100 найвпливовіших жінок України» за версією журналу
+                    - link "«Фокус»" [ref=e261] [cursor=pointer]:
+                      - /url: /wiki/%D0%A4%D0%BE%D0%BA%D1%83%D1%81_(%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB,_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0)
+                    - text: .
+                - generic [ref=e262]:
+                  - link "Читати далі" [ref=e264] [cursor=pointer]:
+                    - /url: /wiki/%D0%9B%D1%8E%D0%B1%D0%B8%D0%B9_%D0%B4%D1%80%D1%83%D0%B3_(%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC)
+                    - button "Читати далі" [ref=e265]
+                  - link "Усі добрі статті (1091)" [ref=e266] [cursor=pointer]:
+                    - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%94%D0%BE%D0%B1%D1%80%D1%96_%D1%81%D1%82%D0%B0%D1%82%D1%82%D1%96
+              - generic [ref=e267]:
+                - generic [ref=e268]:
+                  - heading "Вибране зображення" [level=2] [ref=e270]: Вибране зображення
+                  - generic "Додаткові дії" [ref=e274] [cursor=pointer]:
+                    - img "Додаткові дії" [ref=e275]
+                - generic [ref=e276]:
+                  - figure [ref=e277]:
+                    - link [ref=e278] [cursor=pointer]:
+                      - /url: /wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Grape_worker.jpg
+                      - img [ref=e279]
+                  - generic [ref=e280]:
+                    - text: Працівник виноградника в долині Гваделупе, де виробляється 95% мексиканських вин.
+                    - link "Нижня Каліфорнія" [ref=e281] [cursor=pointer]:
+                      - /url: /wiki/%D0%9D%D0%B8%D0%B6%D0%BD%D1%8F_%D0%9A%D0%B0%D0%BB%D1%96%D1%84%D0%BE%D1%80%D0%BD%D1%96%D1%8F
+                    - text: ", Мексика."
+                - link "Галерея" [ref=e283] [cursor=pointer]:
+                  - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%97%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B4%D0%BD%D1%8F
+              - generic [ref=e284]:
+                - generic [ref=e285]:
+                  - heading "Вибраний список" [level=2] [ref=e287]: Вибраний список
+                  - generic "Додаткові дії" [ref=e291] [cursor=pointer]:
+                    - img "Додаткові дії" [ref=e292]
+                - generic [ref=e293]:
+                  - figure "Скупчення NGC 2175" [ref=e294]:
+                    - link "Скупчення NGC 2175" [ref=e295] [cursor=pointer]:
+                      - /url: /wiki/%D0%A4%D0%B0%D0%B9%D0%BB:NGC_2175_DSS.jpg
+                      - img "Скупчення NGC 2175" [ref=e296]
+                  - paragraph [ref=e297]:
+                    - text: Ця стаття містить
+                    - link "список із 449 розсіяних зоряних скупчень" [ref=e299] [cursor=pointer]:
+                      - /url: /wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%80%D0%BE%D0%B7%D1%81%D1%96%D1%8F%D0%BD%D0%B8%D1%85_%D0%B7%D0%BE%D1%80%D1%8F%D0%BD%D0%B8%D1%85_%D1%81%D0%BA%D1%83%D0%BF%D1%87%D0%B5%D0%BD%D1%8C_6h_%E2%80%94_9h
+                    - text: ", які належать до"
+                    - link "Чумацького Шляху" [ref=e300] [cursor=pointer]:
+                      - /url: /wiki/%D0%A7%D1%83%D0%BC%D0%B0%D1%86%D1%8C%D0%BA%D0%B8%D0%B9_%D0%A8%D0%BB%D1%8F%D1%85
+                    - text: та мають
+                    - link "пряме піднесення" [ref=e301] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D1%80%D1%8F%D0%BC%D0%B5_%D0%BF%D1%96%D0%B4%D0%BD%D0%B5%D1%81%D0%B5%D0%BD%D0%BD%D1%8F
+                    - text: від 6 до 9 години. Загальний перелік відомих розсіяних зоряних скупчень, наведений у каталозі WEBDA, містить понад 1700 об'єктів.
+                  - paragraph [ref=e302]:
+                    - text: Зоряні скупчення — це гравітаційно пов'язані групи зір першого типу зоряного населення. Вік розсіяних скупчень — від десятків мільйонів до мільярда років. Найяскравішими для земного спостерігача розсіяними скупченнями є
+                    - link "Стожари" [ref=e303] [cursor=pointer]:
+                      - /url: /wiki/%D0%A1%D1%82%D0%BE%D0%B6%D0%B0%D1%80%D0%B8
+                    - text: ","
+                    - link "Гіади" [ref=e304] [cursor=pointer]:
+                      - /url: /wiki/%D0%93%D1%96%D0%B0%D0%B4%D0%B8_(%D0%B7%D0%BE%D1%80%D1%8F%D0%BD%D0%B5_%D1%81%D0%BA%D1%83%D0%BF%D1%87%D0%B5%D0%BD%D0%BD%D1%8F)
+                    - text: та
+                    - link "Ясла" [ref=e305] [cursor=pointer]:
+                      - /url: /wiki/%D0%AF%D1%81%D0%BB%D0%B0_(%D0%B7%D0%BE%D1%80%D1%8F%D0%BD%D0%B5_%D1%81%D0%BA%D1%83%D0%BF%D1%87%D0%B5%D0%BD%D0%BD%D1%8F)
+                    - text: . Загалом в нашій Галактиці відомо кілька тисяч таких об'єктів. Ймовірно, їх загальна кількість значно більша.
+                - generic [ref=e306]:
+                  - link "Читати далі" [ref=e308] [cursor=pointer]:
+                    - /url: /wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D1%80%D0%BE%D0%B7%D1%81%D1%96%D1%8F%D0%BD%D0%B8%D1%85_%D0%B7%D0%BE%D1%80%D1%8F%D0%BD%D0%B8%D1%85_%D1%81%D0%BA%D1%83%D0%BF%D1%87%D0%B5%D0%BD%D1%8C_6h_%E2%80%94_9h
+                    - button "Читати далі" [ref=e309]
+                  - link "Усі вибрані списки (292)" [ref=e310] [cursor=pointer]:
+                    - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%92%D0%B8%D0%B1%D1%80%D0%B0%D0%BD%D1%96_%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8
+              - generic [ref=e311]:
+                - heading "Розділи" [level=2] [ref=e314]: Розділи
+                - list [ref=e317]:
+                  - listitem [ref=e318]:
+                    - link "Портал:Біографії" [ref=e320] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%91%D1%96%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D1%96%D1%97
+                      - img [ref=e321]
+                    - link "Біографії" [ref=e322] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%91%D1%96%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D1%96%D1%97
+                  - listitem [ref=e323]:
+                    - link "Портал:Географія" [ref=e325] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D1%96%D1%8F
+                      - img [ref=e326]
+                    - link "Географія" [ref=e327] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%93%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D1%96%D1%8F
+                  - listitem [ref=e328]:
+                    - link "Портал:Історія" [ref=e330] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%86%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F
+                      - img [ref=e331]
+                    - link "Історія" [ref=e332] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%86%D1%81%D1%82%D0%BE%D1%80%D1%96%D1%8F
+                  - listitem [ref=e333]:
+                    - link "Портал:Мистецтво" [ref=e335] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%86%D1%82%D0%B2%D0%BE
+                      - img [ref=e336]
+                    - link "Мистецтво" [ref=e337] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%9C%D0%B8%D1%81%D1%82%D0%B5%D1%86%D1%82%D0%B2%D0%BE
+                  - listitem [ref=e338]:
+                    - link "Портал:Наука" [ref=e340] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%9D%D0%B0%D1%83%D0%BA%D0%B0
+                      - img [ref=e341]
+                    - link "Наука" [ref=e342] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%9D%D0%B0%D1%83%D0%BA%D0%B0
+                  - listitem [ref=e343]:
+                    - link "Портал:Політологія" [ref=e345] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%9F%D0%BE%D0%BB%D1%96%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F
+                      - img [ref=e346]
+                    - link "Політика" [ref=e347] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%9F%D0%BE%D0%BB%D1%96%D1%82%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F
+                  - listitem [ref=e348]:
+                    - link "Портал:Природничі науки" [ref=e350] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D0%B8%D1%87%D1%96_%D0%BD%D0%B0%D1%83%D0%BA%D0%B8
+                      - img [ref=e351]
+                    - link "Природа" [ref=e352] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%9F%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D0%B8%D1%87%D1%96_%D0%BD%D0%B0%D1%83%D0%BA%D0%B8
+                  - listitem [ref=e353]:
+                    - link "Портал:Спорт" [ref=e355] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A1%D0%BF%D0%BE%D1%80%D1%82
+                      - img [ref=e356]
+                    - link "Спорт" [ref=e357] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A1%D0%BF%D0%BE%D1%80%D1%82
+                  - listitem [ref=e358]:
+                    - link "Портал:Соціологія" [ref=e360] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A1%D0%BE%D1%86%D1%96%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F
+                      - img [ref=e361]
+                    - link "Суспільство" [ref=e362] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A1%D0%BE%D1%86%D1%96%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F
+                  - listitem [ref=e363]:
+                    - link "Портал:Техніка" [ref=e365] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A2%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B0
+                      - img [ref=e366]
+                    - link "Технології" [ref=e367] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A2%D0%B5%D1%85%D0%BD%D1%96%D0%BA%D0%B0
+                  - listitem [ref=e368]:
+                    - link "Портал:Україна" [ref=e370] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0
+                      - img [ref=e371]
+                    - link "Україна" [ref=e372] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0
+                  - listitem [ref=e373]:
+                    - link "Портал:Філософія" [ref=e375] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A4%D1%96%D0%BB%D0%BE%D1%81%D0%BE%D1%84%D1%96%D1%8F
+                      - img [ref=e376]
+                    - link "Філософія" [ref=e377] [cursor=pointer]:
+                      - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%A4%D1%96%D0%BB%D0%BE%D1%81%D0%BE%D1%84%D1%96%D1%8F
+            - generic [ref=e378]:
+              - generic [ref=e379]:
+                - generic [ref=e380]:
+                  - heading "Поточні події" [level=2] [ref=e382]: Поточні події
+                  - generic "Додаткові дії" [ref=e386] [cursor=pointer]:
+                    - img "Додаткові дії" [ref=e387]
+                - generic [ref=e388]:
+                  - definition [ref=e390]:
+                    - generic [ref=e391]:
+                      - link "Російсько-українська війна" [ref=e392] [cursor=pointer]:
+                        - /url: /wiki/%D0%A0%D0%BE%D1%81%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%BE-%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%B2%D1%96%D0%B9%D0%BD%D0%B0_(%D0%B7_2014)
+                      - generic [ref=e393]:
+                        - text: (
+                        - link "листопад" [ref=e394] [cursor=pointer]:
+                          - /url: /wiki/%D0%A5%D1%80%D0%BE%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D1%96%D1%8F_%D1%80%D0%BE%D1%81%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE_%D0%B2%D1%82%D0%BE%D1%80%D0%B3%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F_%D0%B2_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%83_(%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%BF%D0%B0%D0%B4_2025)
+                        - text: "); див. також:"
+                        - link "Допомога під час війни" [ref=e395] [cursor=pointer]:
+                          - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%92%D1%96%D0%B9%D0%BD%D0%B0
+                      - text: •
+                      - link "Нещодавно померлі" [ref=e396] [cursor=pointer]:
+                        - /url: /wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D0%BE%D0%BC%D0%B5%D1%80%D0%BB%D0%B8%D1%85_2025_%D1%80%D0%BE%D0%BA%D1%83
+                  - link "Андрій Єрмак" [ref=e400] [cursor=pointer]:
+                    - /url: /wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Andriy_Yermak,_Ukrainian_Head_of_Presidential_Administration_at_the_State_Department_in_Washington,_D.C._on_November_13,_2023_-_(cropped).jpg
+                    - img "Андрій Єрмак" [ref=e401]
+                  - list [ref=e402]:
+                    - listitem [ref=e403]:
+                      - link "Керівник Офісу Президента України" [ref=e404] [cursor=pointer]:
+                        - /url: /wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BA%D0%B5%D1%80%D1%96%D0%B2%D0%BD%D0%B8%D0%BA%D1%96%D0%B2_%D0%9E%D1%84%D1%96%D1%81%D1%83_%D0%9F%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8
+                      - link "Андрій Єрмак" [ref=e406] [cursor=pointer]:
+                        - /url: /wiki/%D0%84%D1%80%D0%BC%D0%B0%D0%BA_%D0%90%D0%BD%D0%B4%D1%80%D1%96%D0%B9_%D0%91%D0%BE%D1%80%D0%B8%D1%81%D0%BE%D0%B2%D0%B8%D1%87
+                      - text: пішов у відставку
+                      - generic [ref=e407]: (28 листопада, на фото)
+                    - listitem [ref=e408]:
+                      - text: Внаслідок
+                      - link "пожежі в житловому комплексі у Гонконзі" [ref=e410] [cursor=pointer]:
+                        - /url: /wiki/%D0%9F%D0%BE%D0%B6%D0%B5%D0%B6%D0%B0_%D0%B2_%D0%B6%D0%B8%D1%82%D0%BB%D0%BE%D0%B2%D0%BE%D0%BC%D1%83_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81%D1%96_%D1%83_%D0%93%D0%BE%D0%BD%D0%BA%D0%BE%D0%BD%D0%B7%D1%96
+                      - text: загинуло понад 100 осіб
+                      - generic [ref=e411]: (26 листопада)
+                    - listitem [ref=e412]:
+                      - text: У
+                      - link "Гвінеї-Бісау" [ref=e413] [cursor=pointer]:
+                        - /url: /wiki/%D0%93%D0%B2%D1%96%D0%BD%D0%B5%D1%8F-%D0%91%D1%96%D1%81%D0%B0%D1%83
+                      - text: збройні сили
+                      - link "захопили владу" [ref=e415] [cursor=pointer]:
+                        - /url: /wiki/%D0%94%D0%B5%D1%80%D0%B6%D0%B0%D0%B2%D0%BD%D0%B8%D0%B9_%D0%BF%D0%B5%D1%80%D0%B5%D0%B2%D0%BE%D1%80%D0%BE%D1%82_%D1%83_%D0%93%D0%B2%D1%96%D0%BD%D0%B5%D1%97-%D0%91%D1%96%D1%81%D0%B0%D1%83_(2025)
+                      - text: в результаті військового перевороту, заарештувавши президента
+                      - link "Умару Сісоку Ембало" [ref=e416] [cursor=pointer]:
+                        - /url: /wiki/%D0%A3%D0%BC%D0%B0%D1%80%D1%83_%D0%A1%D1%96%D1%81%D0%BE%D0%BA%D1%83_%D0%95%D0%BC%D0%B1%D0%B0%D0%BB%D0%BE
+                      - generic [ref=e417]: (26 листопада)
+                    - listitem [ref=e418]:
+                      - text: 19-річний
+                      - link "Жавохір Сіндаров" [ref=e420] [cursor=pointer]:
+                        - /url: /wiki/%D0%96%D0%B0%D0%B2%D0%BE%D1%85%D1%96%D1%80_%D0%A1%D1%96%D0%BD%D0%B4%D0%B0%D1%80%D0%BE%D0%B2
+                      - text: став наймолодшим переможцем
+                      - link "Кубка світу з шахів" [ref=e421] [cursor=pointer]:
+                        - /url: /wiki/%D0%9A%D1%83%D0%B1%D0%BE%D0%BA_%D1%81%D0%B2%D1%96%D1%82%D1%83_%D0%B7_%D1%88%D0%B0%D1%85%D1%96%D0%B2
+                      - generic [ref=e422]: (26 листопада)
+                    - listitem [ref=e423]:
+                      - link "Екс-прем'єр-міністра" [ref=e424] [cursor=pointer]:
+                        - /url: /wiki/%D0%A1%D0%BF%D0%B8%D1%81%D0%BE%D0%BA_%D0%BF%D1%80%D0%B5%D0%BC%27%D1%94%D1%80-%D0%BC%D1%96%D0%BD%D1%96%D1%81%D1%82%D1%80%D1%96%D0%B2_%D0%91%D0%B0%D0%BD%D0%B3%D0%BB%D0%B0%D0%B4%D0%B5%D1%88
+                      - link "Бангладеш" [ref=e425] [cursor=pointer]:
+                        - /url: /wiki/%D0%91%D0%B0%D0%BD%D0%B3%D0%BB%D0%B0%D0%B4%D0%B5%D1%88
+                      - link "Шейх Хасіну" [ref=e427] [cursor=pointer]:
+                        - /url: /wiki/%D0%A8%D0%B5%D0%B9%D1%85_%D0%A5%D0%B0%D1%81%D1%96%D0%BD%D0%B0
+                      - text: заочно
+                      - link "засудили до страти" [ref=e428] [cursor=pointer]:
+                        - /url: /w/index.php?title=%D0%A1%D1%83%D0%B4_%D0%BD%D0%B0%D0%B4_%D0%A8%D0%B5%D0%B9%D1%85_%D0%A5%D0%B0%D1%81%D1%96%D0%BD%D0%BE%D1%8E&action=edit&redlink=1
+                      - link "[в інших мовах]" [ref=e430]:
+                        - /url: javascript:void(0)
+                        - img "[в інших мовах]" [ref=e431]
+                      - text: за звинуваченнями у злочинах проти людяності
+                      - generic [ref=e432]: (17 листопада)
+                - generic [ref=e433]:
+                  - link "Інші новини" [ref=e435] [cursor=pointer]:
+                    - /url: /wiki/%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB:%D0%9F%D0%BE%D1%82%D0%BE%D1%87%D0%BD%D1%96_%D0%BF%D0%BE%D0%B4%D1%96%D1%97
+                    - button "Інші новини" [ref=e436]
+                  - link "Вікіновини" [ref=e437] [cursor=pointer]:
+                    - /url: https://uk.wikinews.org/wiki/
+              - generic [ref=e438]:
+                - generic [ref=e439]:
+                  - heading "Цікавинки" [level=2] [ref=e441]: Цікавинки
+                  - generic "Додаткові дії" [ref=e445] [cursor=pointer]:
+                    - img "Додаткові дії" [ref=e446]
+                - generic [ref=e447]:
+                  - figure "Новий собор Саламанки" [ref=e448]:
+                    - link "Новий собор Саламанки" [ref=e449] [cursor=pointer]:
+                      - /url: /wiki/%D0%A4%D0%B0%D0%B9%D0%BB:WLM14ES_-_Catedral_Nueva_de_Salamanca._-_julianrdc_edited.jpg
+                      - img "Новий собор Саламанки" [ref=e450]
+                  - list [ref=e451]:
+                    - listitem [ref=e452]:
+                      - text: Один з
+                      - link "найбільших соборів Іспанії" [ref=e454] [cursor=pointer]:
+                        - /url: /wiki/%D0%9D%D0%BE%D0%B2%D0%B8%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%A1%D0%B0%D0%BB%D0%B0%D0%BC%D0%B0%D0%BD%D0%BA%D0%B8
+                      - generic [ref=e455]: (на фото)
+                      - text: прикрашають астронавт і дракон, що їсть морозиво
+                    - listitem [ref=e456]:
+                      - link "Монету" [ref=e458] [cursor=pointer]:
+                        - /url: /wiki/%D0%93%D0%B5%D1%80%D0%BB%D1%96%D1%86%D1%8C%D0%BA%D0%B8%D0%B9_%D1%88%D0%B5%D0%BA%D0%B5%D0%BB%D1%8C
+                      - text: з написом «Ізраїльський шекель» карбували у
+                      - link "німецькому місті" [ref=e459] [cursor=pointer]:
+                        - /url: /wiki/%D0%93%D0%B5%D1%80%D0%BB%D1%96%D1%86
+                      - text: задовго до заснування держави
+                      - link "Ізраїль" [ref=e460] [cursor=pointer]:
+                        - /url: /wiki/%D0%86%D0%B7%D1%80%D0%B0%D1%97%D0%BB%D1%8C
+                    - listitem [ref=e461]:
+                      - text: Вправи на
+                      - link "розтягування" [ref=e463] [cursor=pointer]:
+                        - /url: /wiki/%D0%A0%D0%BE%D0%B7%D1%82%D1%8F%D0%B3%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F
+                      - text: потрібні не для видовження м'язів, а для збільшення часу спрацьовування
+                      - link "нервового запобіжника" [ref=e464] [cursor=pointer]:
+                        - /url: /wiki/%D0%A1%D1%83%D1%85%D0%BE%D0%B6%D0%B8%D0%BB%D0%BA%D0%BE%D0%B2%D1%96_%D1%80%D0%B5%D1%84%D0%BB%D0%B5%D0%BA%D1%81%D0%B8
+                    - listitem [ref=e465]:
+                      - link "Український аграрій" [ref=e467] [cursor=pointer]:
+                        - /url: /wiki/%D0%AF%D0%BA%D0%BE%D0%B2%D0%B8%D1%88%D0%B8%D0%BD_%D0%9B%D0%B5%D0%BE%D0%BD%D1%96%D0%B4_%D0%93%D1%80%D0%B8%D0%B3%D0%BE%D1%80%D0%BE%D0%B2%D0%B8%D1%87
+                      - text: похований у мавзолеї вартістю $3 млн, спорудженому ним для себе за зразком мавзолею
+                      - link "Наполеона Бонапарта" [ref=e468] [cursor=pointer]:
+                        - /url: /wiki/%D0%9D%D0%B0%D0%BF%D0%BE%D0%BB%D0%B5%D0%BE%D0%BD
+                    - listitem [ref=e469]:
+                      - link "Інтернет через поштових голубів" [ref=e471] [cursor=pointer]:
+                        - /url: /wiki/IP_%D0%B7%D0%B0_%D0%B4%D0%BE%D0%BF%D0%BE%D0%BC%D0%BE%D0%B3%D0%BE%D1%8E_%D0%BF%D0%BE%D1%88%D1%82%D0%BE%D0%B2%D0%B8%D1%85_%D0%B3%D0%BE%D0%BB%D1%83%D0%B1%D1%96%D0%B2
+                      - text: не дуже надійний, але працює
+                - generic [ref=e472]:
+                  - link "Запропонувати" [ref=e474] [cursor=pointer]:
+                    - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9F%D1%80%D0%BE%D1%94%D0%BA%D1%82:%D0%A7%D0%B8_%D0%B2%D0%B8_%D0%B7%D0%BD%D0%B0%D1%94%D1%82%D0%B5/%D0%9F%D1%96%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0_%D0%BD%D0%B0%D1%81%D1%82%D1%83%D0%BF%D0%BD%D0%BE%D0%B3%D0%BE_%D0%B2%D0%B8%D0%BF%D1%83%D1%81%D0%BA%D1%83
+                    - button "Запропонувати" [ref=e475]
+                  - link "Архів" [ref=e476] [cursor=pointer]:
+                    - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9F%D1%80%D0%BE%D1%94%D0%BA%D1%82:%D0%A7%D0%B8_%D0%B2%D0%B8_%D0%B7%D0%BD%D0%B0%D1%94%D1%82%D0%B5/%D0%90%D1%80%D1%85%D1%96%D0%B2_%D1%80%D1%83%D0%B1%D1%80%D0%B8%D0%BA%D0%B8
+              - generic [ref=e477]:
+                - generic [ref=e478]:
+                  - heading "30 листопада в історії" [level=2] [ref=e480]: 30 листопада в історії
+                  - generic "Додаткові дії" [ref=e484] [cursor=pointer]:
+                    - img "Додаткові дії" [ref=e485]
+                - generic [ref=e486]:
+                  - list [ref=e487]:
+                    - listitem [ref=e488]:
+                      - link "1700" [ref=e489] [cursor=pointer]:
+                        - /url: /wiki/1700
+                      - text: —
+                      - link "Карл XII" [ref=e490] [cursor=pointer]:
+                        - /url: /wiki/%D0%9A%D0%B0%D1%80%D0%BB_XII
+                      - text: у
+                      - link "битві під Нарвою" [ref=e491] [cursor=pointer]:
+                        - /url: /wiki/%D0%91%D0%B8%D1%82%D0%B2%D0%B0_%D0%BF%D1%96%D0%B4_%D0%9D%D0%B0%D1%80%D0%B2%D0%BE%D1%8E
+                      - text: розбив московську армію
+                      - link "Петра I" [ref=e492] [cursor=pointer]:
+                        - /url: /wiki/%D0%9F%D0%B5%D1%82%D1%80%D0%BE_I
+                      - generic [ref=e493]: (дата за н.ст.)
+                    - listitem [ref=e494]:
+                      - link "1786" [ref=e495] [cursor=pointer]:
+                        - /url: /wiki/1786
+                      - text: — вперше в сучасній історії у
+                      - link "Великому герцогстві Тосканському" [ref=e496] [cursor=pointer]:
+                        - /url: /wiki/%D0%92%D0%B5%D0%BB%D0%B8%D0%BA%D0%B5_%D0%B3%D0%B5%D1%80%D1%86%D0%BE%D0%B3%D1%81%D1%82%D0%B2%D0%BE_%D0%A2%D0%BE%D1%81%D0%BA%D0%B0%D0%BD%D1%81%D1%8C%D0%BA%D0%B5
+                      - link "скасована" [ref=e497] [cursor=pointer]:
+                        - /url: /wiki/%D0%9C%D1%96%D1%81%D1%82%D0%B0_%D0%B7%D0%B0_%D0%B6%D0%B8%D1%82%D1%82%D1%8F
+                      - link "смертна кара" [ref=e498] [cursor=pointer]:
+                        - /url: /wiki/%D0%A1%D0%BC%D0%B5%D1%80%D1%82%D0%BD%D0%B0_%D0%BA%D0%B0%D1%80%D0%B0
+                  - figure "Одеський маяк на поштівці кінця 1890-х рр." [ref=e499]:
+                    - link "Одеський маяк на поштівці кінця 1890-х рр." [ref=e500] [cursor=pointer]:
+                      - /url: /wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Odessa_lighthouse.jpg
+                      - img "Одеський маяк на поштівці кінця 1890-х рр." [ref=e501]
+                  - list [ref=e502]:
+                    - listitem [ref=e503]:
+                      - link "1867" [ref=e504] [cursor=pointer]:
+                        - /url: /wiki/1867
+                      - text: —
+                      - link "Одеський маяк" [ref=e505] [cursor=pointer]:
+                        - /url: /wiki/%D0%92%D0%BE%D1%80%D0%BE%D0%BD%D1%86%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%BC%D0%B0%D1%8F%D0%BA
+                      - text: першим у
+                      - link "Російській імперії" [ref=e506] [cursor=pointer]:
+                        - /url: /wiki/%D0%A0%D0%BE%D1%81%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B0_%D1%96%D0%BC%D0%BF%D0%B5%D1%80%D1%96%D1%8F
+                      - text: оснащений електричними лампами
+                    - listitem [ref=e507]:
+                      - link "1872" [ref=e508] [cursor=pointer]:
+                        - /url: /wiki/1872
+                      - text: — у
+                      - link "Глазго" [ref=e509] [cursor=pointer]:
+                        - /url: /wiki/%D0%93%D0%BB%D0%B0%D0%B7%D0%B3%D0%BE
+                      - text: відбувся перший в історії міжнародний
+                      - link "футбольний" [ref=e510] [cursor=pointer]:
+                        - /url: /wiki/%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB
+                      - text: матч між збірними
+                      - link "Шотландії" [ref=e511] [cursor=pointer]:
+                        - /url: /wiki/%D0%97%D0%B1%D1%96%D1%80%D0%BD%D0%B0_%D0%A8%D0%BE%D1%82%D0%BB%D0%B0%D0%BD%D0%B4%D1%96%D1%97_%D0%B7_%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%83
+                      - text: та
+                      - link "Англії" [ref=e512] [cursor=pointer]:
+                        - /url: /wiki/%D0%97%D0%B1%D1%96%D1%80%D0%BD%D0%B0_%D0%90%D0%BD%D0%B3%D0%BB%D1%96%D1%97_%D0%B7_%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%83
+                      - text: (0:0)
+                    - listitem [ref=e513]:
+                      - link "1922" [ref=e514] [cursor=pointer]:
+                        - /url: /wiki/1922
+                      - text: —
+                      - link "Чеченську автономну область" [ref=e515] [cursor=pointer]:
+                        - /url: /wiki/%D0%A7%D0%B5%D1%87%D0%B5%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%B0%D0%B2%D1%82%D0%BE%D0%BD%D0%BE%D0%BC%D0%BD%D0%B0_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C
+                      - text: виділено з
+                      - link "Горської АРСР" [ref=e516] [cursor=pointer]:
+                        - /url: /wiki/%D0%93%D0%BE%D1%80%D1%81%D1%8C%D0%BA%D0%B0_%D0%90%D0%B2%D1%82%D0%BE%D0%BD%D0%BE%D0%BC%D0%BD%D0%B0_%D0%A0%D0%B0%D0%B4%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%A1%D0%BE%D1%86%D1%96%D0%B0%D0%BB%D1%96%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%B0_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D1%96%D0%BA%D0%B0
+                  - figure "Фінські солдати оглядають покинутий радянський танк Т-26. Січень 1940" [ref=e517]:
+                    - link "Фінські солдати оглядають покинутий радянський танк Т-26. Січень 1940" [ref=e518] [cursor=pointer]:
+                      - /url: /wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Raattentie_T-26.jpg
+                      - img "Фінські солдати оглядають покинутий радянський танк Т-26. Січень 1940" [ref=e519]
+                  - list [ref=e520]:
+                    - listitem [ref=e521]:
+                      - link "1939" [ref=e522] [cursor=pointer]:
+                        - /url: /wiki/1939
+                      - text: —
+                      - link "Червона армія" [ref=e523] [cursor=pointer]:
+                        - /url: /wiki/%D0%A7%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0_%D0%B0%D1%80%D0%BC%D1%96%D1%8F
+                      - text: без оголошення війни перейшла радянсько-фінський кордон. Почалася
+                      - link "Зимова війна" [ref=e524] [cursor=pointer]:
+                        - /url: /wiki/%D0%A0%D0%B0%D0%B4%D1%8F%D0%BD%D1%81%D1%8C%D0%BA%D0%BE-%D1%84%D1%96%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%B2%D1%96%D0%B9%D0%BD%D0%B0_(1939%E2%80%941940)
+                    - listitem [ref=e525]:
+                      - link "1973" [ref=e526] [cursor=pointer]:
+                        - /url: /wiki/1973
+                      - text: —
+                      - link "Генеральна Асамблея ООН" [ref=e527] [cursor=pointer]:
+                        - /url: /wiki/%D0%93%D0%B5%D0%BD%D0%B5%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0_%D0%90%D1%81%D0%B0%D0%BC%D0%B1%D0%BB%D0%B5%D1%8F_%D0%9E%D0%9E%D0%9D
+                      - text: прийняла Конвенцію про припинення злочину
+                      - link "апартеїду" [ref=e528] [cursor=pointer]:
+                        - /url: /wiki/%D0%90%D0%BF%D0%B0%D1%80%D1%82%D0%B5%D1%97%D0%B4
+                      - text: та покарання за нього
+                    - listitem [ref=e529]:
+                      - link "1982" [ref=e530] [cursor=pointer]:
+                        - /url: /wiki/1982
+                      - text: —
+                      - link "Майкл Джексон" [ref=e531] [cursor=pointer]:
+                        - /url: /wiki/%D0%9C%D0%B0%D0%B9%D0%BA%D0%BB_%D0%94%D0%B6%D0%B5%D0%BA%D1%81%D0%BE%D0%BD
+                      - text: випустив альбом
+                      - generic [ref=e532]:
+                        - link "Thriller" [ref=e533] [cursor=pointer]:
+                          - /url: /wiki/Thriller_(%D0%B0%D0%BB%D1%8C%D0%B1%D0%BE%D0%BC)
+                        - text: ","
+                      - text: що став найпродаванішим альбомом усіх часів та отримав вісім нагород
+                      - link "Греммі" [ref=e534] [cursor=pointer]:
+                        - /url: /wiki/%D0%93%D1%80%D0%B5%D0%BC%D0%BC%D1%96
+                    - listitem [ref=e535]:
+                      - link "1986" [ref=e536] [cursor=pointer]:
+                        - /url: /wiki/1986
+                      - text: — закінчення будівництва
+                      - link "першого саркофагу" [ref=e537] [cursor=pointer]:
+                        - /url: /wiki/%D0%A3%D0%BA%D1%80%D0%B8%D1%82%D1%82%D1%8F_(%D0%A7%D0%90%D0%95%D0%A1)
+                      - text: на
+                      - link "Чорнобильській АЕС" [ref=e538] [cursor=pointer]:
+                        - /url: /wiki/%D0%A7%D0%BE%D1%80%D0%BD%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B0_%D0%90%D0%95%D0%A1
+                    - listitem [ref=e539]:
+                      - link "1988" [ref=e540] [cursor=pointer]:
+                        - /url: /wiki/1988
+                      - text: — повністю припинено
+                      - link "глушіння зарубіжних радіостанцій" [ref=e541] [cursor=pointer]:
+                        - /url: /wiki/%D0%92%D0%BE%D1%80%D0%BE%D0%B6%D1%96_%D0%B3%D0%BE%D0%BB%D0%BE%D1%81%D0%B8
+                      - text: у СРСР
+                  - figure "Беркутівці б'ють мирних протестувальників під час силового розгону Євромайдану в Києві 30 листопада 2013 р." [ref=e542]:
+                    - link "Беркутівці б'ють мирних протестувальників під час силового розгону Євромайдану в Києві 30 листопада 2013 р." [ref=e543] [cursor=pointer]:
+                      - /url: /wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Ukrianian_crisis,_Ukraine_news,_Euromaidan,_Kiev._Ukraine._Documentary_photography._Mstyslav_Chernov._Unframe.jpg
+                      - img "Беркутівці б'ють мирних протестувальників під час силового розгону Євромайдану в Києві 30 листопада 2013 р." [ref=e544]
+                  - list [ref=e545]:
+                    - listitem [ref=e546]:
+                      - link "2013" [ref=e547] [cursor=pointer]:
+                        - /url: /wiki/2013
+                      - text: — відбувся
+                      - link "злочинний силовий розгін" [ref=e548] [cursor=pointer]:
+                        - /url: /wiki/%D0%A1%D0%B8%D0%BB%D0%BE%D0%B2%D0%B8%D0%B9_%D1%80%D0%BE%D0%B7%D0%B3%D1%96%D0%BD_%D0%84%D0%B2%D1%80%D0%BE%D0%BC%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD%D1%83_%D0%B2_%D0%9A%D0%B8%D1%94%D0%B2%D1%96
+                      - link "«Беркутом»" [ref=e549] [cursor=pointer]:
+                        - /url: /wiki/%D0%91%D0%B5%D1%80%D0%BA%D1%83%D1%82_(%D1%81%D0%BF%D0%B5%D1%86%D0%BF%D1%96%D0%B4%D1%80%D0%BE%D0%B7%D0%B4%D1%96%D0%BB)
+                      - link "мирних протестувальників" [ref=e550] [cursor=pointer]:
+                        - /url: /wiki/%D0%84%D0%B2%D1%80%D0%BE%D0%BC%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD
+                      - text: на
+                      - link "Майдані Незалежності" [ref=e551] [cursor=pointer]:
+                        - /url: /wiki/%D0%9C%D0%B0%D0%B9%D0%B4%D0%B0%D0%BD_%D0%9D%D0%B5%D0%B7%D0%B0%D0%BB%D0%B5%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D1%96
+                      - text: в Києві
+                  - paragraph [ref=e552]: Народилися
+                  - figure "Марк Твен (1871)" [ref=e553]:
+                    - link "Марк Твен (1871)" [ref=e554] [cursor=pointer]:
+                      - /url: /wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Mark_Twain,_Brady-Handy_photo_portrait,_Feb_7,_1871,_cropped.jpg
+                      - img "Марк Твен (1871)" [ref=e555]
+                  - figure "Вінстон Черчилль (1900)" [ref=e556]:
+                    - link "Вінстон Черчилль (1900)" [ref=e557] [cursor=pointer]:
+                      - /url: /wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Winston_Churchill,_Boer_War_Hero,_1900.png
+                      - img "Вінстон Черчилль (1900)" [ref=e558]
+                  - list [ref=e559]:
+                    - listitem [ref=e560]:
+                      - link "1667" [ref=e561] [cursor=pointer]:
+                        - /url: /wiki/1667
+                      - text: —
+                      - link "Джонатан Свіфт" [ref=e562] [cursor=pointer]:
+                        - /url: /wiki/%D0%94%D0%B6%D0%BE%D0%BD%D0%B0%D1%82%D0%B0%D0%BD_%D0%A1%D0%B2%D1%96%D1%84%D1%82
+                      - text: ", ірландський письменник, церковний діяч, публіцист"
+                    - listitem [ref=e563]:
+                      - link "1817" [ref=e564] [cursor=pointer]:
+                        - /url: /wiki/1817
+                      - text: —
+                      - link "Теодор Моммзен" [ref=e565] [cursor=pointer]:
+                        - /url: /wiki/%D0%A2%D0%B5%D0%BE%D0%B4%D0%BE%D1%80_%D0%9C%D0%BE%D0%BC%D0%BC%D0%B7%D0%B5%D0%BD
+                      - text: ", німецький історик, філолог, юрист, політик і організатор науки,"
+                      - link "Нобелівська премія з літератури" [ref=e566] [cursor=pointer]:
+                        - /url: /wiki/%D0%9D%D0%BE%D0%B1%D0%B5%D0%BB%D1%96%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%BF%D1%80%D0%B5%D0%BC%D1%96%D1%8F_%D0%B7_%D0%BB%D1%96%D1%82%D0%B5%D1%80%D0%B0%D1%82%D1%83%D1%80%D0%B8
+                      - text: "1902"
+                    - listitem [ref=e567]:
+                      - link "1835" [ref=e568] [cursor=pointer]:
+                        - /url: /wiki/1835
+                      - text: —
+                      - link "Марк Твен" [ref=e569] [cursor=pointer]:
+                        - /url: /wiki/%D0%9C%D0%B0%D1%80%D0%BA_%D0%A2%D0%B2%D0%B5%D0%BD
+                      - text: (Семюел Ленґгорн Клеменс), американський письменник
+                    - listitem [ref=e570]:
+                      - link "1874" [ref=e571] [cursor=pointer]:
+                        - /url: /wiki/1874
+                      - text: —
+                      - link "Вінстон Черчилль" [ref=e572] [cursor=pointer]:
+                        - /url: /wiki/%D0%92%D1%96%D0%BD%D1%81%D1%82%D0%BE%D0%BD_%D0%A7%D0%B5%D1%80%D1%87%D0%B8%D0%BB%D0%BB%D1%8C
+                      - text: ", британський державний діяч"
+                    - listitem [ref=e573]:
+                      - link "1926" [ref=e574] [cursor=pointer]:
+                        - /url: /wiki/1926
+                      - text: —
+                      - link "Ендрю Віктор Шаллі" [ref=e575] [cursor=pointer]:
+                        - /url: /wiki/%D0%95%D0%BD%D0%B4%D1%80%D1%8E_%D0%92%D1%96%D0%BA%D1%82%D0%BE%D1%80_%D0%A8%D0%B0%D0%BB%D0%BB%D1%96
+                      - text: ", польсько-американський біохімік, нобелівський лауреат за відкриття, пов'язані з секрецією пептидних гормонів мозку."
+                    - listitem [ref=e576]:
+                      - link "1951" [ref=e577] [cursor=pointer]:
+                        - /url: /wiki/1951
+                      - text: —
+                      - link "Назарій Яремчук" [ref=e578] [cursor=pointer]:
+                        - /url: /wiki/%D0%AF%D1%80%D0%B5%D0%BC%D1%87%D1%83%D0%BA_%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D1%96%D0%B9_%D0%9D%D0%B0%D0%B7%D0%B0%D1%80%D0%BE%D0%B2%D0%B8%D1%87
+                      - text: ", український співак"
+                    - listitem [ref=e579]:
+                      - link "1960" [ref=e580] [cursor=pointer]:
+                        - /url: /wiki/1960
+                      - text: —
+                      - link "Гарі Лінекер" [ref=e581] [cursor=pointer]:
+                        - /url: /wiki/%D0%93%D0%B0%D1%80%D1%96_%D0%9B%D1%96%D0%BD%D0%B5%D0%BA%D0%B5%D1%80
+                      - text: ", англійський футболіст, видатний бомбардир"
+                    - listitem [ref=e582]:
+                      - link "1990" [ref=e583] [cursor=pointer]:
+                        - /url: /wiki/1990
+                      - text: —
+                      - link "Маґнус Карлсен" [ref=e584] [cursor=pointer]:
+                        - /url: /wiki/%D0%9C%D0%B0%D2%91%D0%BD%D1%83%D1%81_%D0%9A%D0%B0%D1%80%D0%BB%D1%81%D0%B5%D0%BD
+                      - text: ", норвезький шаховий гросмейстер,"
+                      - link "чемпіон світу з шахів" [ref=e585] [cursor=pointer]:
+                        - /url: /wiki/%D0%A7%D0%B5%D0%BC%D0%BF%D1%96%D0%BE%D0%BD%D0%B0%D1%82_%D1%81%D0%B2%D1%96%D1%82%D1%83_%D1%96%D0%B7_%D1%88%D0%B0%D1%85%D1%96%D0%B2
+                  - paragraph [ref=e586]: Померли
+                  - figure "Карл XII на портреті роботи художника Д. фон Крафта (1706)" [ref=e587]:
+                    - link "Карл XII на портреті роботи художника Д. фон Крафта (1706)" [ref=e588] [cursor=pointer]:
+                      - /url: /wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Karl_XII_1706.jpg
+                      - img "Карл XII на портреті роботи художника Д. фон Крафта (1706)" [ref=e589]
+                  - list [ref=e590]:
+                    - listitem [ref=e591]:
+                      - link "1718" [ref=e592] [cursor=pointer]:
+                        - /url: /wiki/1718
+                      - text: —
+                      - link "Карл XII" [ref=e593] [cursor=pointer]:
+                        - /url: /wiki/%D0%9A%D0%B0%D1%80%D0%BB_XII
+                      - text: ","
+                      - link "шведський" [ref=e594] [cursor=pointer]:
+                        - /url: /wiki/%D0%A8%D0%B2%D0%B5%D1%86%D1%96%D1%8F
+                      - text: король; загинув при облозі одного із замків у
+                      - link "Норвегії" [ref=e595] [cursor=pointer]:
+                        - /url: /wiki/%D0%9D%D0%BE%D1%80%D0%B2%D0%B5%D0%B3%D1%96%D1%8F
+                    - listitem [ref=e596]:
+                      - link "1813" [ref=e597] [cursor=pointer]:
+                        - /url: /wiki/1813
+                      - text: —
+                      - link "Джамбаттіста Бодоні" [ref=e598] [cursor=pointer]:
+                        - /url: /wiki/%D0%94%D0%B6%D0%B0%D0%BC%D0%B1%D0%B0%D1%82%D1%82%D1%96%D1%81%D1%82%D0%B0_%D0%91%D0%BE%D0%B4%D0%BE%D0%BD%D1%96
+                      - text: ", італійський видавець, друкар, художник-шрифтовик і гравер, автор сотень шрифтів"
+                    - listitem [ref=e599]:
+                      - link "1872" [ref=e600] [cursor=pointer]:
+                        - /url: /wiki/1872
+                      - text: —
+                      - link "Іван Васенко" [ref=e601] [cursor=pointer]:
+                        - /url: /wiki/%D0%86%D0%B2%D0%B0%D0%BD_%D0%92%D0%B0%D1%81%D0%B5%D0%BD%D0%BA%D0%BE
+                      - text: ", український"
+                      - link "тесляр" [ref=e602] [cursor=pointer]:
+                        - /url: /wiki/%D0%A2%D0%B5%D1%81%D0%BB%D1%8F%D1%80
+                      - text: ", будівник"
+                      - link "дерев'яних церков галицької школи" [ref=e603] [cursor=pointer]:
+                        - /url: /wiki/%D0%94%D0%B5%D1%80%D0%B5%D0%B2%27%D1%8F%D0%BD%D1%96_%D1%85%D1%80%D0%B0%D0%BC%D0%B8_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B8#Галичина
+                    - listitem [ref=e604]:
+                      - link "1900" [ref=e605] [cursor=pointer]:
+                        - /url: /wiki/1900
+                      - text: —
+                      - link "Оскар Вайлд" [ref=e606] [cursor=pointer]:
+                        - /url: /wiki/%D0%9E%D1%81%D0%BA%D0%B0%D1%80_%D0%92%D0%B0%D0%B9%D0%BB%D0%B4
+                      - text: ", англійський письменник, представник провокаційного"
+                      - link "естетизму" [ref=e607] [cursor=pointer]:
+                        - /url: /wiki/%D0%95%D1%81%D1%82%D0%B5%D1%82%D0%B8%D0%B7%D0%BC
+                    - listitem [ref=e608]:
+                      - link "1937" [ref=e609] [cursor=pointer]:
+                        - /url: /wiki/1937
+                      - text: —
+                      - link "Борис Герасимович" [ref=e610] [cursor=pointer]:
+                        - /url: /wiki/%D0%93%D0%B5%D1%80%D0%B0%D1%81%D0%B8%D0%BC%D0%BE%D0%B2%D0%B8%D1%87_%D0%91%D0%BE%D1%80%D0%B8%D1%81_%D0%9F%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D0%B8%D1%87
+                      - text: ", український радянський астроном, розстріляний"
+                    - listitem [ref=e611]:
+                      - link "1962" [ref=e612] [cursor=pointer]:
+                        - /url: /wiki/1962
+                      - text: —
+                      - link "Макс Фасмер" [ref=e613] [cursor=pointer]:
+                        - /url: /wiki/%D0%9C%D0%B0%D0%BA%D1%81_%D0%A4%D0%B0%D1%81%D0%BC%D0%B5%D1%80
+                      - text: ", німецький мовознавець-славіст"
+                    - listitem [ref=e614]:
+                      - link "1983" [ref=e615] [cursor=pointer]:
+                        - /url: /wiki/1983
+                      - text: —
+                      - link "Анатолій Кос-Анатольський" [ref=e616] [cursor=pointer]:
+                        - /url: /wiki/%D0%9A%D0%BE%D1%81-%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%8C%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%90%D0%BD%D0%B0%D1%82%D0%BE%D0%BB%D1%96%D0%B9_%D0%99%D0%BE%D1%81%D0%B8%D0%BF%D0%BE%D0%B2%D0%B8%D1%87
+                      - text: ", український композитор"
+                - generic [ref=e617]:
+                  - link "Докладніше" [ref=e619] [cursor=pointer]:
+                    - /url: /wiki/30_%D0%BB%D0%B8%D1%81%D1%82%D0%BE%D0%BF%D0%B0%D0%B4%D0%B0
+                    - button "Докладніше" [ref=e620]
+                  - link "Архів" [ref=e621] [cursor=pointer]:
+                    - /url: /wiki/%D0%A8%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD:SelectedAnnivBar
+              - generic [ref=e622]:
+                - generic [ref=e623]:
+                  - heading "Вікітиждень" [level=2] [ref=e625]: Вікітиждень
+                  - generic "Додаткові дії" [ref=e629] [cursor=pointer]:
+                    - img "Додаткові дії" [ref=e630]
+                - paragraph [ref=e632]:
+                  - text: Розпочався
+                  - link "Місяць Азії 2025" [ref=e633] [cursor=pointer]:
+                    - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9F%D1%80%D0%BE%D1%94%D0%BA%D1%82:%D0%A2%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9_%D1%82%D0%B8%D0%B6%D0%B4%D0%B5%D0%BD%D1%8C/%D0%9C%D1%96%D1%81%D1%8F%D1%86%D1%8C_%D0%90%D0%B7%D1%96%D1%97_2025
+                  - text: ", триває"
+                  - link "тиждень Житомирщини 2025" [ref=e634] [cursor=pointer]:
+                    - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9F%D1%80%D0%BE%D1%94%D0%BA%D1%82:%D0%A2%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9_%D1%82%D0%B8%D0%B6%D0%B4%D0%B5%D0%BD%D1%8C/%D0%A2%D0%B8%D0%B6%D0%B4%D0%B5%D0%BD%D1%8C_%D0%96%D0%B8%D1%82%D0%BE%D0%BC%D0%B8%D1%80%D1%89%D0%B8%D0%BD%D0%B8_2025
+                  - text: ", завершуються проєкт"
+                  - link "«Свічка пам'яті жертв Голодомору 1932—1933 років»" [ref=e635] [cursor=pointer]:
+                    - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9F%D1%80%D0%BE%D1%94%D0%BA%D1%82:%D0%A1%D0%B2%D1%96%D1%87%D0%BA%D0%B0_%D0%BF%D0%B0%D0%BC%27%D1%8F%D1%82%D1%96_%D0%B6%D0%B5%D1%80%D1%82%D0%B2_%D0%93%D0%BE%D0%BB%D0%BE%D0%B4%D0%BE%D0%BC%D0%BE%D1%80%D1%83_1932%E2%80%941933_%D1%80%D0%BE%D0%BA%D1%96%D0%B2
+                  - text: і
+                  - link "Фантастична осінь зі спортивним присмаком" [ref=e636] [cursor=pointer]:
+                    - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9F%D1%80%D0%BE%D1%94%D0%BA%D1%82:%D0%A2%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9_%D1%82%D0%B8%D0%B6%D0%B4%D0%B5%D0%BD%D1%8C/%D0%A4%D0%B0%D0%BD%D1%82%D0%B0%D1%81%D1%82%D0%B8%D1%87%D0%BD%D0%B0_%D0%BE%D1%81%D1%96%D0%BD%D1%8C_%D0%B7%D1%96_%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D0%B8%D0%BC_%D0%BF%D1%80%D0%B8%D1%81%D0%BC%D0%B0%D0%BA%D0%BE%D0%BC_2025
+                - link "Календар" [ref=e638] [cursor=pointer]:
+                  - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9F%D1%80%D0%BE%D1%94%D0%BA%D1%82:%D0%A2%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%BD%D0%B8%D0%B9_%D1%82%D0%B8%D0%B6%D0%B4%D0%B5%D0%BD%D1%8C/%D0%9F%D1%80%D0%B8%D0%B9%D0%BD%D1%8F%D1%82%D1%82%D1%8F_%D0%BF%D1%80%D0%BE%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D1%96%D0%B9/2025
+          - generic [ref=e639]:
+            - heading "Вікіпедія є проєктом Фонд Вікімедіа Фонду Вікімедіа — неприбуткової організації, яка опікується низкою інших проєктів" [level=2] [ref=e641]:
+              - text: Вікіпедія є проєктом
+              - generic [ref=e642]:
+                - link "Фонд Вікімедіа" [ref=e644] [cursor=pointer]:
+                  - /url: /wiki/%D0%A4%D0%BE%D0%BD%D0%B4_%D0%92%D1%96%D0%BA%D1%96%D0%BC%D0%B5%D0%B4%D1%96%D0%B0
+                  - img [ref=e645]
+                - link "Фонду Вікімедіа" [ref=e646] [cursor=pointer]:
+                  - /url: /wiki/%D0%A4%D0%BE%D0%BD%D0%B4_%D0%92%D1%96%D0%BA%D1%96%D0%BC%D0%B5%D0%B4%D1%96%D0%B0
+              - text: — неприбуткової організації, яка опікується низкою інших проєктів
+            - list [ref=e647]:
+              - listitem [ref=e648]:
+                - link "wikt:" [ref=e650] [cursor=pointer]:
+                  - /url: https://uk.wiktionary.org/wiki/
+                  - img [ref=e651]
+                - link "Вікісловник" [ref=e652] [cursor=pointer]:
+                  - /url: https://uk.wiktionary.org/wiki/
+              - listitem [ref=e653]:
+                - link "q:" [ref=e655] [cursor=pointer]:
+                  - /url: https://uk.wikiquote.org/wiki/
+                  - img [ref=e656]
+                - link "Вікіцитати" [ref=e657] [cursor=pointer]:
+                  - /url: https://uk.wikiquote.org/wiki/
+              - listitem [ref=e658]:
+                - link "b:" [ref=e660] [cursor=pointer]:
+                  - /url: https://uk.wikibooks.org/wiki/
+                  - img [ref=e661]
+                - link "Вікіпідручник" [ref=e662] [cursor=pointer]:
+                  - /url: https://uk.wikibooks.org/wiki/
+              - listitem [ref=e663]:
+                - link "s:" [ref=e665] [cursor=pointer]:
+                  - /url: https://uk.wikisource.org/wiki/
+                  - img [ref=e666]
+                - link "Вікіджерела" [ref=e667] [cursor=pointer]:
+                  - /url: https://uk.wikisource.org/wiki/
+              - listitem [ref=e668]:
+                - link "n:" [ref=e670] [cursor=pointer]:
+                  - /url: https://uk.wikinews.org/wiki/
+                  - img [ref=e671]
+                - link "Вікіновини" [ref=e672] [cursor=pointer]:
+                  - /url: https://uk.wikinews.org/wiki/
+              - listitem [ref=e673]:
+                - link "betawikiversity:Головна сторінка" [ref=e675] [cursor=pointer]:
+                  - /url: https://beta.wikiversity.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0
+                  - img [ref=e676]
+                - link "Віківерситет" [ref=e677] [cursor=pointer]:
+                  - /url: https://beta.wikiversity.org/wiki/%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0
+              - listitem [ref=e678]:
+                - link "species:" [ref=e680] [cursor=pointer]:
+                  - /url: https://species.wikimedia.org/wiki/
+                  - img [ref=e681]
+                - link "Віківиди" [ref=e682] [cursor=pointer]:
+                  - /url: https://species.wikimedia.org/wiki/
+              - listitem [ref=e683]:
+                - link "mw:" [ref=e685] [cursor=pointer]:
+                  - /url: https://www.mediawiki.org/wiki/
+                  - img [ref=e686]
+                - link "MediaWiki" [ref=e687] [cursor=pointer]:
+                  - /url: https://www.mediawiki.org/wiki/
+              - listitem [ref=e688]:
+                - link "d:" [ref=e690] [cursor=pointer]:
+                  - /url: https://www.wikidata.org/wiki/
+                  - img [ref=e691]
+                - link "Вікідані" [ref=e692] [cursor=pointer]:
+                  - /url: https://www.wikidata.org/wiki/
+              - listitem [ref=e693]:
+                - link "c:" [ref=e695] [cursor=pointer]:
+                  - /url: https://commons.wikimedia.org/wiki/
+                  - img [ref=e696]
+                - link "Вікісховище" [ref=e697] [cursor=pointer]:
+                  - /url: https://commons.wikimedia.org/wiki/
+              - listitem [ref=e698]:
+                - link "voy:" [ref=e700] [cursor=pointer]:
+                  - /url: https://uk.wikivoyage.org/wiki/
+                  - img [ref=e701]
+                - link "Вікімандри" [ref=e702] [cursor=pointer]:
+                  - /url: https://uk.wikivoyage.org/wiki/
+              - listitem [ref=e703]:
+                - link "m:" [ref=e705] [cursor=pointer]:
+                  - /url: https://meta.wikimedia.org/wiki/
+                  - img [ref=e706]
+                - link "Мета-вікі" [ref=e707] [cursor=pointer]:
+                  - /url: https://meta.wikimedia.org/wiki/
+            - 'heading "wmua: Вікімедіа Україна є регіональним відділенням Фонду Вікімедіа" [level=3] [ref=e709]':
+              - generic [ref=e710]:
+                - link "wmua:" [ref=e712] [cursor=pointer]:
+                  - /url: https://ua.wikimedia.org/wiki/
+                  - img [ref=e713]
+                - link "Вікімедіа Україна" [ref=e714] [cursor=pointer]:
+                  - /url: https://ua.wikimedia.org/wiki/
+              - text: є регіональним відділенням Фонду Вікімедіа
+        - generic [ref=e715]:
+          - button "Перейдіть до статті іншою мовою. Доступний у 46 мовах" [ref=e716] [cursor=pointer]
+          - generic [ref=e719]: 46 мов
+    - contentinfo [ref=e721]:
+      - list [ref=e722]:
+        - listitem [ref=e723]: Цю сторінку востаннє відредаговано о 09:19, 30 серпня 2025.
+        - listitem [ref=e724]:
+          - text: Текст доступний на умовах ліцензії
+          - link "Creative Commons Attribution-ShareAlike" [ref=e725] [cursor=pointer]:
+            - /url: https://creativecommons.org/licenses/by-sa/4.0/deed.uk
+          - text: ; також можуть діяти додаткові умови. Детальніше див.
+          - link "Умови використання" [ref=e726] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use/uk
+          - text: .
+      - list:
+        - listitem [ref=e727]:
+          - link "Політика конфіденційності" [ref=e728] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy
+        - listitem [ref=e729]:
+          - link "Про Вікіпедію" [ref=e730] [cursor=pointer]:
+            - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%9F%D1%80%D0%BE
+        - listitem [ref=e731]:
+          - link "Відмова від відповідальності" [ref=e732] [cursor=pointer]:
+            - /url: /wiki/%D0%92%D1%96%D0%BA%D1%96%D0%BF%D0%B5%D0%B4%D1%96%D1%8F:%D0%92%D1%96%D0%B4%D0%BC%D0%BE%D0%B2%D0%B0_%D0%B2%D1%96%D0%B4_%D0%B2%D1%96%D0%B4%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%96
+        - listitem [ref=e733]:
+          - link "Зворотний зв'язок" [ref=e734] [cursor=pointer]:
+            - /url: //uk.wikipedia.org/wiki/Вікіпедія:Зворотний_зв%27язок
+        - listitem [ref=e735]:
+          - link "Кодекс поведінки" [ref=e736] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e737]:
+          - link "Розробники" [ref=e738] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e739]:
+          - link "Статистика" [ref=e740] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/uk.wikipedia.org
+        - listitem [ref=e741]:
+          - link "Куки" [ref=e742] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e743]:
+          - link "Мобільний вигляд" [ref=e744] [cursor=pointer]:
+            - /url: //uk.wikipedia.org/w/index.php?title=%D0%93%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B0_%D1%81%D1%82%D0%BE%D1%80%D1%96%D0%BD%D0%BA%D0%B0&mobileaction=toggle_view_mobile
+      - list [ref=e745]:
+        - listitem [ref=e746]:
+          - link "Wikimedia Foundation" [ref=e747] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e749]
+        - listitem [ref=e750]:
+          - link "Powered by MediaWiki" [ref=e751] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e753]
+  - generic [ref=e754]:
+    - list
+```
