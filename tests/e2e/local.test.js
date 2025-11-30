@@ -8,5 +8,5 @@ test("E2E-2: Local - Проверка placeholder'а поля Ім'я корис
     await page.goto('/');
     const usernameInput = page.locator('#username');
     // ВОТ ЗДЕСЬ ДОЛЖНО БЫТЬ ОЖИДАНИЕ ПРАВИЛЬНОГО ТЕКСТА
-    await expect(usernameInput).toHaveAttribute('placeholder', "Ім'я користувача");
+    await expect(page).toHaveTitle(/INTENTIONAL CI FAILURE/);
 });
