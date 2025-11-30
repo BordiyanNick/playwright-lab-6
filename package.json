@@ -3,17 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test", 
-    "start": "http-server public -p 3000"  
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "e2e",
-    "playwright" 
-  ],
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "Lab 7 CI check: Safely updated package.json to trigger CI success." 
-  ,
+  "description": "",
   "devDependencies": {
     "@playwright/test": "^1.57.0",
     "http-server": "^14.1.1"
