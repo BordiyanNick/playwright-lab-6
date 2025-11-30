@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test", 
-    "start": "http-server public -p 3000"  // <-- ВИПРАВЛЕННЯ: Тепер запускається на порту 3000
+    "start": "http-server public -p 3000"  
   },
   "keywords": [
     "e2e",
